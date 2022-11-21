@@ -3,3 +3,38 @@
     margin: 0px;
     padding: 0px;
 }
+.Navbar{
+    background-color: rgba(0, 0, 0, 0.98);
+    opacity: 1;
+    color: white;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+ /*background-color: transparent;*/
+}
+
+.Navbar nav{
+  text-decoration: none;
+
+}
+.Navbar ul{
+
+  list-style-type: none;
+
+}
+.Navbar li{
+    float: left;
+    margin: auto;
+}
+.Navbar a{
+    display: block;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+   text-align: center;
+}
+
+.Navbar a:hover{
+    background-color: rgba(63, 61, 61, 0.89);
+    border-radius: 20px;
+}

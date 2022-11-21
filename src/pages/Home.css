@@ -5,10 +5,9 @@
 }
 
 .Home{
-    background-image: url('../img/bacground.jpg');
+    background-image: url("../img/background.jpg");
     min-width: 980px;
     min-height: 1000px;
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
