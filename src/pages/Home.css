@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.Home{
+    background-image: url('../img/bacground.jpg');
+    min-width: 980px;
+    min-height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
