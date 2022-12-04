@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     justify-content:center;
+    font-family: 'Lora', serif;
 }
 
 .headerimg{
@@ -15,6 +16,16 @@
     background-size: cover;
 }
 
-.headerimg{
-    
+.headertitleSm{
+  position: absolute;
+  top: 18%; 
+  font-size: 20px; 
+   color: white;
+}
+
+.headertitleLg{
+    position: absolute;
+    top: 20%; 
+    font-size: 100px; 
+     color: white;
 }

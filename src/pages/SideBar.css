@@ -4,6 +4,6 @@
     border: 0px;
 }
 
-.Home{
-    display: flex;
+.sidebar{
+    flex: 9;
 }
