@@ -7,8 +7,9 @@ function Header() {
     return (
         <div className="Header">
             <div className="headertitle">
-                <span className="headertitleSm">React & node</span>
+                <span className="headertitleSm">Create Your</span>
                 <span className="headertitleLg">Blog</span>
+                <span className="headertitleSm mr">now</span>
             </div>
 
             <img src={background} alt="" className="headerimg" />

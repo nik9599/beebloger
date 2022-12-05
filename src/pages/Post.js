@@ -1,10 +1,17 @@
 import React from 'react';
-import './Post.css'
+import './Post.css';
+import Posts from './Posts.js'
 
 export default function Post() {
   return (
     <div className='post'>
-      Post
+      <Posts/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
     </div>
   )
 }
