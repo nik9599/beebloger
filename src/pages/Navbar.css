@@ -12,7 +12,8 @@
     position: sticky;
     top:0;
     align-items: center;
-    font-family: 'Josefin Sans', sans-serif
+    font-family: 'Josefin Sans', sans-serif;
+    z-index: 999;
 }
 
 .topleft{
@@ -46,7 +47,8 @@
 .topicon{
   font-size: 20px;
   margin-right: 10px;
-  color:#444;
+  /* color:#444; */
+  color: rgb(195, 193, 193);
   cursor: pointer;
 }
 
