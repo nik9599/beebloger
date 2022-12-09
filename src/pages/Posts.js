@@ -5,7 +5,7 @@ import background from '../img/background.jpg'
 
 export default function Posts() {
     return (
-        <div className='posts'>
+        <div className='  posts'>
             <img src={background} alt="" className="postimg" />
             <div className="postinfo">
                 <div className="postcat">
