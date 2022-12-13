@@ -25,7 +25,7 @@ function App() {
         <Route exact path='/Login' element={user ? <Home /> : <Login />} />
         <Route exact path='/Profile' element={user ? <Profile /> : <Register />} />
         <Route exact path='/Sidebar' element={<Sidebar/>} />
-        <Routes exact path='Sid' element={<></>} />
+   
       </Routes>
 
     </Router>
