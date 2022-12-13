@@ -12,7 +12,7 @@ import { BrowserRouter as Router,  Route,  Routes } from 'react-router-dom';
 
 function App() {
 
-  const user = true;
+  const user = false;
 
   return (
     <Router>
@@ -25,7 +25,7 @@ function App() {
         <Route exact path='/Login' element={user ? <Home /> : <Login />} />
         <Route exact path='/Profile' element={user ? <Profile /> : <Register />} />
         <Route exact path='/Sidebar' element={<Sidebar/>} />
-   
+        
       </Routes>
 
     </Router>
